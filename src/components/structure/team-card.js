@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const TeamCard = ({ post }) => (
   <Col md={6} className="col-12" lg={4} xl={3}>
-    <Card className="border-0 bg-light">
+    <Card className="border-0 bg-light mb-2">
       <Card.Img variant={"top"}
                 as={GatsbyImage} image={getImage(post.frontmatter.image)} alt={"Object image"} />
       <Card.Body className="bg-white border-0 rounded-3">

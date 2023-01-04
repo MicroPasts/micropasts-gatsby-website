@@ -4,7 +4,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const FeatureCard = ({ post }) => (
   <Col lg={4} md={6} className="d-flex align-items-stretch">
-    <Card className="border-0">
+    <Card className="border-0 mb-2">
       <Card.Img variant={"top"}
                 as={GatsbyImage} image={getImage(post.frontmatter.image)}
                 alt={post.frontmatter.alt} />
