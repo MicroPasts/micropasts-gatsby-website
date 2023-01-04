@@ -11,7 +11,7 @@ const WhyUs = () => {
               edges {
                   node {
                       id
-                      html
+                      rawMarkdownBody
                       frontmatter {
                           title
                           alt

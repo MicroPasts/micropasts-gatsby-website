@@ -10,7 +10,7 @@ const FeatureCard = ({ post }) => (
                 alt={post.frontmatter.alt} />
       <Card.Body>
         <Card.Title className={'fw-bold text-success'}>{post.frontmatter.title}</Card.Title>
-        <Card.Text dangerouslySetInnerHTML={{ __html: post.html }} />
+        <Card.Text>{post.rawMarkdownBody}</Card.Text>
       </Card.Body>
     </Card>
   </Col>

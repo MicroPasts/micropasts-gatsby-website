@@ -21,6 +21,9 @@ module.exports = {
     },
     siteUrl: `https://micropasts.org`,
   },
+  flags: {
+    DEV_SSR: true
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
