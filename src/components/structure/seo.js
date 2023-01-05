@@ -1,25 +1,15 @@
 import React from "react";
 import { useSiteMetadata } from "../../hooks/use-site-metadata";
 
-function createSeoImage(featured, image) {
-  if (featured) {
-    return featured?.childImageSharp.gatsbyImageData.images.fallback.src;
-  }
-  return image;
-}
-
-const Seo = ({ title, description, pathname, children, featured }) => {
+const Seo = ({ title, description, pathname, children }) => {
   const { title: defaultTitle, description: defaultDescription, image, siteUrl, twitterHandle } = useSiteMetadata();
-  console.log(featured);
-  const featuredImage = createSeoImage(featured, image);
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${featuredImage}`,
+    image: `${siteUrl}${image}`,
     url: `${siteUrl}${pathname || ``}`,
     twitterHandle
   };
-
 
   return (
     <>
@@ -28,9 +18,9 @@ const Seo = ({ title, description, pathname, children, featured }) => {
       <meta name="image" content={seo.image} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:url" content={seo.url} />
+      <meta name="twitter:url" content={seo.url.toString()} />
       <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
+      <meta name="twitter:image" content={seo.image.toString()} />
       <meta name="twitter:creator" content={seo.twitterHandle} />
       <meta property="og:url" content={seo.url.toString()} />
       <meta property="og:title" content={seo.title} />

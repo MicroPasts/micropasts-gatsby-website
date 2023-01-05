@@ -34,17 +34,17 @@ const Collaborators = () => {
 
           <Row className="justify-content-center my-3">
             <Col md={2} sm={2} className="col-md-2 text-center mx-2">
-              <StaticImage src={"../../images/logos/reading.jpg"} alt={"Egypt Exploration Society Logo"}
+              <StaticImage src={"../../images/logos/reading.jpg"} alt={"Reading University Logo"}
                            className="img-fluid mx-auto mb-3"
                            width={180} placeholder={"NONE"} quality={90} transformOptions={{ grayscale: true }} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/oxford.png"} alt={"Palestine Exploration Fund logo"}
+              <StaticImage src={"../../images/logos/oxford.png"} alt={"Oxford University logo"}
 
                            className="img-fluid mx-auto mb-3" width={100} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/nms.png"} alt={"Stirling University logo"}
+              <StaticImage src={"../../images/logos/nms.png"} alt={"National Museum of Scotland logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={160} placeholder={"NONE"} quality={90} />
             </Col>
@@ -62,27 +62,27 @@ const Collaborators = () => {
 
           <Row className="justify-content-center my-3">
             <Col md={2} sm={2} className="col-md-2 text-center mx-2">
-              <StaticImage src={"../../images/logos/Durham_University_Logo.png"} alt={"Egypt Exploration Society Logo"}
+              <StaticImage src={"../../images/logos/Durham_University_Logo.png"} alt={"Durham University Logo"}
                            className="img-fluid mx-auto mb-3"
                            width={180} placeholder={"NONE"} quality={90} transformOptions={{ grayscale: true }} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/manchester.png"} alt={"Palestine Exploration Fund logo"}
+              <StaticImage src={"../../images/logos/manchester.png"} alt={"Manchester University logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={120} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/montpelier.jpg"} alt={"Stirling University logo"}
+              <StaticImage src={"../../images/logos/montpelier.jpg"} alt={"Montpelier Archaeology logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={160} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/fortSnelling.png"} alt={"English Heritage logo"}
+              <StaticImage src={"../../images/logos/fortSnelling.png"} alt={"Historic Fort Snelling logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={100} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/cua.png"} alt={"Denver Museum logo"}
+              <StaticImage src={"../../images/logos/cua.png"} alt={"Catholic University Americalogo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" height={70} placeholder={"NONE"} quality={90} />
             </Col>
@@ -90,22 +90,27 @@ const Collaborators = () => {
 
           <Row className="justify-content-center my-3">
             <Col md={2} sm={2} className="col-md-2 text-center mx-2">
-              <StaticImage src={"../../images/logos/Society_of_Antiquaries_of_London_logomark.png"} alt={"Egypt Exploration Society Logo"}
+              <StaticImage src={"../../images/logos/Society_of_Antiquaries_of_London_logomark.png"} alt={"Society of Antiquaries Logo"}
                            className="img-fluid mx-auto mb-3"
                            width={180} placeholder={"NONE"} quality={90} transformOptions={{ grayscale: true }} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/mary-rose.jpg"} alt={"Palestine Exploration Fund logo"}
+              <StaticImage src={"../../images/logos/mary-rose.jpg"} alt={"Mary Rose Trust logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={120} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
-              <StaticImage src={"../../images/logos/logo-museo-egizio.jpg"} alt={"Stirling University logo"}
+              <StaticImage src={"../../images/logos/logo-museo-egizio.jpg"} alt={"Museo Egizio   logo"}
                            transformOptions={{ grayscale: true }}
                            className="img-fluid mx-auto mb-3" width={160} placeholder={"NONE"} quality={90} />
             </Col>
             <Col md={2} sm={2} className="text-center mx-2">
               <StaticImage src={"../../images/logos/Fitz_logo.jpg"} alt={"Fitzwilliam Museum logo"}
+                           className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
+                           placeholder={"NONE"} quality={90} />
+            </Col>
+            <Col md={2} sm={2} className="text-center mx-2">
+              <StaticImage src={"../../images/logos/spalogocmykpaths-290x300.png"} alt={"Scottish Political Archives logo"}
                            className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
                            placeholder={"NONE"} quality={90} />
             </Col>

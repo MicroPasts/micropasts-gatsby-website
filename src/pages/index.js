@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Seo from "../components/structure/seo"
 import CtaInvolved  from "../components/structure/cta-involved";
 import WhyUs from "../components/structure/why-us";
 import OurTeam from "../components/structure/our-team";
@@ -23,6 +23,6 @@ const IndexPage = () => (
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Home - MicroPasts" description={'MicroPasts - a crowdfuelled archaeological and heritage citizen science platform'}/>
 
 export default IndexPage

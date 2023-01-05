@@ -14,7 +14,7 @@ module.exports = {
     description: `Crowdfuelled archaeological research - how can you get involved?.`,
     twitterHandle: '@micropasts',
     author: 'The MicroPasts Collective',
-    image: `/img.png`,
+    image: `/logo_social.jpg`,
     og: {
       siteName: 'MicroPasts - Crowd fuelled archaeology',
       twitterCreator: '@micropasts',
