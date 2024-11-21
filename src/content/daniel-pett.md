@@ -21,7 +21,7 @@ created extensive cross-disciplinary and cross-sector networks.
 
 Dan’s first major project at the British Museum was to design and build the award winning Portable Antiquities Scheme 
 database (which holds records of over 1.6 million objects) and enabled collaboration through projects working on linked 
-and open data (LOD) with ISAWNYU and the American Numismatic Society, crowdsourcing and crowdfunding (MicroPasts), 
+and open data (LOD) with ISAW NYU and the American Numismatic Society, crowdsourcing and crowdfunding (MicroPasts), 
 and developing the British Museum’s 3D capture reputation. He led the British Museum's 3D work with Thomas Flynn and Jennifer 
 Wexler and whilst at the Fitzwilliam Museum he revived their faded digital reputation and led the development of their new website,
 collections systems, 3d capture, CRM and ticketing and IT infrastructure. He is an advocate of open access, open source and reproducible
