@@ -2,7 +2,7 @@
 title: Professor
 name: Daniel Pett
 institution: Westminster School
-homepage: https://museoologi.st
+homepage: https://museologi.st
 image: ../images/team/daniel-pett.png
 twitter: dejpett
 github: portableant
