@@ -1,62 +1,85 @@
 # MicroPasts Website
 
+MicroPasts is a collaborative platform for crowdsourcing and crowdfunding research in archaeology, history, and heritage. The project brings together professionals and enthusiasts to help digitize, transcribe, and enrich historical data, making it accessible for research and public engagement. Learn more about the project at [micropasts.org](https://micropasts.org/).
 
-This repository holds a very simple one page system for the MicroPasts project. 
+This repository contains the code for the MicroPasts website, built as a simple one-page application using [Gatsby](https://www.gatsbyjs.com/). The site provides information about the project, showcases ongoing initiatives, and offers ways for the community to get involved.
 
-1.  **Start developing.**
+## 🚀 Getting Started
 
-    Navigate into your new site’s directory and start it up.
+Follow these steps to set up and run the website locally:
+
+1. **Clone the repository**
 
     ```shell
-    cd micropasts-gatsby-website/
-    gatsby develop
+    git clone https://github.com/your-username/micropasts-gatsby-website.git
+    cd micropasts-gatsby-website
     ```
 
-2. **Open the source code and start editing!**
+2. **Install dependencies**
 
-    Your site is now running at `http://localhost:8000`!
+    Make sure you have [Node.js](https://nodejs.org/) installed. Then run:
 
-    Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries).
+    ```shell
+    npm install
+    ```
 
-    Open the `micropasts-gatsby-website` directory in your code editor of choice and edit `src/pages/index.txt`. Save your changes and the browser will update in real time!
+3. **Start the development server**
 
-## 🚀 Quick start (Gatsby Cloud)
+    ```shell
+    npm run develop
+    ```
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+    The site will be running at [http://localhost:8000](http://localhost:8000).
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-default)
+    You can also access the GraphiQL interface for exploring your site's data at [http://localhost:8000/___graphql](http://localhost:8000/___graphql).
 
-## 🧐 What's inside?
+4. **Edit the source code**
 
-A quick look at the top-level files and directories you'll see in a typical Gatsby project.
+    Open the `micropasts-gatsby-website` directory in your code editor. The main page is located at `src/pages/index.js`. Save your changes and the browser will update automatically.
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
+    ## 🚀 Automatic Deployment to GitHub Pages
 
-1. *`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-2. **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-3. **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-4. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-5. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
-6. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-7. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-8. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-9. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-10. **`README.md`**: A text file containing useful reference information about your project.
+    This site is automatically deployed to GitHub Pages whenever changes are pushed to the main branch. The deployment is handled by a GitHub Actions workflow, which builds the site and publishes the output to the `gh-pages` branch. No manual steps are required—just commit and push your changes, and the live site will update shortly.
 
-## To deploy
+    You can view the deployed site at:  
+    `https://micropasts.org`
 
-Run the following command:
+## 🧐 Project Structure
+
+Here's a quick overview of the main files and directories in this Gatsby project:
+
+```
+.
+├── node_modules
+├── src
+├── .gitignore
+├── gatsby-browser.js
+├── gatsby-config.js
+├── gatsby-node.js
+├── gatsby-ssr.js
+├── LICENSE
+├── package.json
+└── README.md
+```
+
+- **`/node_modules`**: Project dependencies.
+- **`/src`**: Source code for the website, including pages and components.
+- **`.gitignore`**: Specifies files and directories ignored by Git.
+- **`gatsby-browser.js`**: Customizes Gatsby’s browser APIs.
+- **`gatsby-config.js`**: Main configuration file for site metadata and plugins.
+- **`gatsby-node.js`**: Customizes Gatsby’s Node APIs for build processes.
+- **`gatsby-ssr.js`**: Customizes server-side rendering APIs.
+- **`LICENSE`**: Project license (replace with your own if needed).
+- **`package.json`**: Project manifest for dependencies and scripts.
+- **`README.md`**: This file.
+
+## 🚢 To Deploy Manually
+
+To build and deploy the site, run:
 
 ```shell
+gatsby build
 gatsby deploy
 ```
+
+For more information about contributing or getting involved with MicroPasts, please visit [micropasts.org](https://micropasts.org/) or check the project documentation.
