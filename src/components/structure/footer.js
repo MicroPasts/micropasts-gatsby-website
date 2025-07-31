@@ -8,7 +8,9 @@ import {
   faYoutube,
 
 } from '@fortawesome/free-brands-svg-icons';
+
 import SketchfabIcon from "../../images/sketchfab-logo-white.svg";
+
 const Footer = () => {
   return (
     <>

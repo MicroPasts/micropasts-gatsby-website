@@ -114,7 +114,28 @@ const Collaborators = () => {
                            className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
                            placeholder={"NONE"} quality={90} />
             </Col>
-
+          </Row>
+          <Row className="justify-content-center my-3">
+            <Col md={2} sm={2} className="text-center mx-2">
+              <StaticImage src={"../../images/logos/ans_large.png"} alt={"American Numismatics Society logo"}
+                           className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
+                           placeholder={"NONE"} quality={90} />
+            </Col>
+            <Col md={2} sm={2} className="text-center mx-2">
+              <StaticImage src={"../../images/logos/new-forest-national.png"} alt={"New Forest National Park logo"}
+                           className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
+                           placeholder={"NONE"} quality={90} />
+            </Col>
+            <Col md={2} sm={2} className="text-center mx-2">
+              <StaticImage src={"../../images/logos/ancient.png"} alt={"Ancient Identities Project logo"}
+                           className="img-fluid mx-auto mb-3" height={70} transformOptions={{ grayscale: true }}
+                           placeholder={"NONE"} quality={90} />
+            </Col>
+            <Col md={2} sm={2} className="text-center mx-2">
+              <StaticImage src={"../../images/logos/ucm.jpg"} alt={"University of Cambridge Museums logo"}
+                           className="img-fluid mx-auto mb-3" height={120} transformOptions={{ grayscale: true }}
+                           placeholder={"NONE"} quality={90} />
+            </Col>
           </Row>
         </Col>
       </div>

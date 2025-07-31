@@ -22,7 +22,7 @@ module.exports = {
     siteUrl: `https://micropasts.org`,
   },
   flags: {
-    DEV_SSR: true
+    DEV_SSR: false
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -119,7 +119,7 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /images\/.*\.svg/,
+          include: /images/,
           omitKeys: ['xmlnsDc', 'xmlnsCc', 'xmlnsRdf', 'xmlnsSvg', 'xmlnsSodipodi', 'xmlnsInkscape']
         }
       }

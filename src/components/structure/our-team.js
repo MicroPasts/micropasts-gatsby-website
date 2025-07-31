@@ -19,6 +19,7 @@ const OurTeam = () => {
                               }
                           }
                           title
+                          slug
                       }
                   }
               }

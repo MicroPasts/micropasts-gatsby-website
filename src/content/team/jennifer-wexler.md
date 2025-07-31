@@ -2,7 +2,7 @@
 title: Dr
 name: Jennifer Wexler
 institution: English Heritage
-image: ../images/team/jennifer-wexler.jpg
+image: ../../images/team/jennifer-wexler.jpg
 twitter: jenwexler
 github: jenwexler
 orcid: 0000-0002-0000-0000

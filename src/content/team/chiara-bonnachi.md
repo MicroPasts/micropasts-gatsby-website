@@ -3,7 +3,7 @@ title: Dr
 name: Chiara Bonnachi
 institution: University of Edinburgh
 homepage: https://www.ed.ac.uk/history-classics-archaeology/history/about/staff-profiles/chiara-bonacchi    
-image: ../images/team/chiara-bonnachi.jpg
+image: ../../images/team/chiara-bonnachi.jpg
 twitter: chiara_bonnachi
 github: ChiaraBonacchi
 orcid: 0000-0002-0872-0614

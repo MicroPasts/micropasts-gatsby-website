@@ -15,6 +15,7 @@ const WhyUs = () => {
                       frontmatter {
                           title
                           alt
+                          link
                           image {
                               childImageSharp {
                                   gatsbyImageData(height: 500, width: 500)
