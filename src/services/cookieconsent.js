@@ -10,7 +10,7 @@ export default function CookieConsent() {
         const config = {
             current_lang: 'en',
             autoclear_cookies: true,
-            cookie_name: 'dejp3-cookies',
+            cookie_name: 'micropasts-cookies', // Updated cookie name
             cookie_expiration: 365,
             page_scripts: true,
             force_consent: true,
@@ -69,7 +69,7 @@ export default function CookieConsent() {
                         ],
                         blocks: [
                             {
-                                title: 'Cookie usage and the Fitzwilliam website',
+                                title: 'Cookie usage and the MicroPasts Project website', // Updated text
                                 description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want.'
                             }, {
                                 title: 'Strictly necessary cookies',
@@ -121,9 +121,7 @@ export default function CookieConsent() {
         };
 
         if (window.CookieConsent) {
-            // Check if the cookie consent has already been initialized
             if (!document.getElementById('cc--main')) {
-                // Now we call run on the main object instead of an instance
                 window.CookieConsent.run(config);
             }
         }
