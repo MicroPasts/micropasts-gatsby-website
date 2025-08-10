@@ -3,7 +3,10 @@
  *
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
-const siteUrl = `https://blog.micropasts.org`
+const siteUrl = `https://micropasts.org`
+
+const purgeCssSafelist = require('./purgecss-safelist'); 
+const cookieConsentConfig = require('./gatsby-cookie-consent-config');
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -27,6 +30,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
+     {
+      resolve: `gatsby-plugin-google-gtag-cookieconsent`,
+      options: cookieConsentConfig
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -43,6 +50,39 @@ module.exports = {
               loading: `lazy`,
             },
           },
+          {
+            resolve: `gatsby-plugin-purgecss`,
+            options: {
+                printRejected: true,
+                develop: false,
+                defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
+                ignore: [
+                    'src/components/layout.css',
+                    'src/styles/global.css',
+                    'node_modules/react-back-to-top/dist/BackToTop.css',
+                    'node_modules/vanilla-cookieconsent/dist/cookieconsent.css',
+                ],
+                purgeCSSOptions: {
+                    safelist: purgeCssSafelist,
+                    greedy: [],
+                    content: [
+                        './src/**/*.{js,jsx,ts,tsx}', // Default for your components
+                        './src/content/**/*.md',// Markdown files
+                    ],
+                    deep: [
+                        /active/, // Matches active classes for indicators and items
+                        /^alert-/, 
+                        /^breadcrumb-/, // Matches breadcrumb classes
+                        /^btn-/,
+                        /carousel/, // Catch all for any carousel-related classes
+                    ],
+                    // Safelist CSS variables used by alerts
+                    variables: [
+                    /^--bs-alert-/,
+                    ],
+                },
+            },
+        },
           {
             resolve: `gatsby-remark-images-remote`,
             options: {
@@ -153,17 +193,7 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: [
-          "G-MRBHPT2C54",
-        ],
-        pluginConfig: {
-          head: true
-        },
-      },
-    },
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
