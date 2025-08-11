@@ -34,7 +34,7 @@ const WhyUs = () => {
     <section id="why-us ">
       <Container fluid className="why-us section-bg bg-pastel py-5">
         <Container>
-          <span className="text-danger mb-3 d-block text-uppercase fw-bold ls-xl text-center">Creativity, open research, powered by you</span>
+          <span className="text-success mb-3 d-block text-uppercase fw-bold ls-xl text-center">Creativity, open research, powered by you</span>
 
           <h2 className="display-4 mt-4 mb-3 text-dark fw-bold text-center">What have we created with the crowd?</h2>
 

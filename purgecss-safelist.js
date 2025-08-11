@@ -10,6 +10,8 @@ module.exports = [
   'breadcrumb__list',
   'blockquote',
   'figcaption',
+  'btn',
+  'btn-outline-light',
   'lead',
   'table',
   'table-striped',
@@ -94,4 +96,5 @@ module.exports = [
   /^ratio-*/,
   /^table-/,
   /^border-/,
+  /^btn-/
 ];
