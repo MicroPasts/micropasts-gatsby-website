@@ -5,14 +5,14 @@
   "description": "A simple Gatsby powered website",
   "author": "Daniel Pett",
   "dependencies": {
-    "@fontsource/public-sans": "^5.2.6",
-    "@fortawesome/fontawesome-svg-core": "^7.0.0",
-    "@fortawesome/free-brands-svg-icons": "^7.0.0",
-    "@fortawesome/free-solid-svg-icons": "^7.0.0",
+    "@fontsource/public-sans": "^5.2.7",
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
     "@fortawesome/react-fontawesome": "^3.0.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.7",
-    "gatsby": "^5.14.6",
+    "gatsby": "^5.15.0",
     "gatsby-awesome-pagination": "^0.3.8",
     "gatsby-plugin-google-gtag": "^5.14.0",
     "gatsby-plugin-google-gtag-cookieconsent": "^0.0.6",
@@ -40,6 +40,7 @@
     "react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",
     "sass": "^1.90.0",
+    "sharp": "^0.34.4",
     "vanilla-cookieconsent": "^3.1.0"
   },
   "devDependencies": {
