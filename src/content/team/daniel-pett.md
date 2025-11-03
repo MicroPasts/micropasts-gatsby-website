@@ -1,7 +1,7 @@
 ---
 title: Professor
 name: Daniel Pett
-institution: Westminster School
+institution: "St. Edmund's College"
 homepage: https://museologi.st
 image: ../../images/team/daniel-pett.png
 twitter: dejpett
@@ -13,8 +13,7 @@ slug: /team/daniel-pett
 author: Daniel Pett
 
 ---
-Dan has worked in museums and heritage for 2 decades and until recently was Head of Major Projects (Digital Strategy) for Historic England. 
-He is now Director of Digital Strategy and Operations for Westminster School and he also has held the roles of Digital Humanities Lead at the British Museum, where he 
+Dan has worked in museums and heritage for 2 decades and until recently was Director of Digital Strategy and Operations for Westminster School. He was previously Head of Major Projects (Digital Strategy) for Historic England. He also has held the roles of Digital Humanities Lead at the British Museum, where he 
 designed and implemented digital innovation connecting humanities research, museum practice, and the creative industries; 
 ICT Advisor to the Portable Antiquities Scheme and Head of Digital and IT for the Fitzwilliam Museum. In doing so, he has 
 created extensive cross-disciplinary and cross-sector networks. 
