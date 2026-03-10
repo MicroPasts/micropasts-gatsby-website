@@ -1,0 +1,1 @@
+(self.webpackChunkmicropasts_blog_gatsby=self.webpackChunkmicropasts_blog_gatsby||[]).push([[932],{4932:function(){}}]);
